@@ -1,0 +1,22 @@
+{
+  "name": "PworkUI",
+  "version": "0.0.0",
+  "homepage": "index.html",
+  "authors": [
+    "AustinKwang <austinkvong@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "jquery": "~2.1.1",
+    "angularjs": "~1.3.4"
+  }
+}
