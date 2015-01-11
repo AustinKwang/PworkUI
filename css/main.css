@@ -1,0 +1,37 @@
+li{
+    list-style-type:none; /*去掉li前面的点样式*/
+}
+
+.menu-item li{
+    margin-left: 10px;
+    float: left;
+}
+
+.sub-menu{
+    padding: 0px;
+    display: none;
+    margin-top: 10px;
+    width: 50px;
+
+}
+
+.sub-menu li{
+    float: none;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+li span:hover {
+    background-color: #2b81af;
+}
+
+li a:hover{
+    background-color: #8699a4;
+}
+
+li ul{
+    -webkit-transition: display 2s linear;
+    -webkit-animation: display 2s linear;
+}
+li:hover ul{  /**当鼠标hover时， li下面的 ul元素应用此CSS样式*/
+    display: block;
+}

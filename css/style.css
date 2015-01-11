@@ -1,0 +1,28 @@
+/**Common styles*/
+
+/*common style which can use class in html*/
+.float-left {
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-none{
+    float: none;
+}
+
+.display-none {
+    display: none;
+}
+
+
+.display-inline{
+    display: inline-block;
+}
+
+.main-container{
+    height: 100%;
+}
+
