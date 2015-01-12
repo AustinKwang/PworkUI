@@ -1,4 +1,7 @@
 /**Common styles*/
+html,body{
+    height: 100%
+}
 
 /*common style which can use class in html*/
 .float-left {
