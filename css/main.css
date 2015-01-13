@@ -5,21 +5,13 @@
     background-color: lightslategray;
 }
 
-.logo,
-.search-box{
-    float: left;
-}
-
-.menu-function,
-.user-info{
-    float: right;
-}
-
 .logo{
     width: 100px;
     height: 50px;
     margin-top: 5px;
     margin-left: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .logo a{
@@ -36,4 +28,10 @@
     padding: 5px 5px 5px 20px;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.user-info
+.menu-function{
+    width: 60px;
+    height: 100%;
 }
