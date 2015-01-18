@@ -1,23 +1,37 @@
 
+/**
+Top Bar
+*/
 .menu-nav{
     width: 100%;
+    /*margin-left: 2px;*/
+    /*margin-right: 2px;*/
     height: 60px;
     background-color: lightslategray;
+    /*border-radius: 3px;*/
+    border-top-left-radius:0.4em;
+    border-top-right-radius:0.4em;
 }
 
 .logo{
-    width: 100px;
-    height: 50px;
-    margin-top: 5px;
+    width: 105px;
+    height: 60px;
+    /*margin-top: 5px;*/
     margin-left: 30px;
     padding-left: 10px;
-    padding-top: 10px;
 }
 
-.logo a{
+.logo-text{
+    width: 100px;
+    height: 70%;
+    left: 1px;
+    padding-top: 10px;
+}
+.logo-text a{
     font-size: 1.5em;
     margin: 14.5px 11px;
     text-decoration: none;
+    position: relative;
 }
 
 .search-text{
@@ -30,8 +44,91 @@
     margin-top: 10px;
 }
 
-.user-info
-.menu-function{
+.user-info{
     width: 60px;
     height: 100%;
 }
+
+/*.split-line{*/
+    /*position: relative;*/
+    /*left: 101px;*/
+/*}*/
+
+.menu-function{
+    padding-right: 10px;
+    width: 150px;
+    height: 60px;
+}
+
+.search-fun{
+    padding-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+/*.search-form{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+.new-task-btn{
+    width: 100%;
+    height: 40%;
+    margin-top: 18px;
+    padding: 0px;
+    border: 1px solid;
+    border-radius: 0.5em;
+    position: relative;
+}
+
+.user-info{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.user-info-text{
+    width: 100%;
+    padding: 0px;
+}
+
+/**
+End Top Bar
+*/
+
+.main-container{
+    height: 83%;
+    width: 100%;
+    /*margin-left: 2px;*/
+    /*margin-left: 2px;*/
+    border-bottom-right-radius:2em;
+    border-bottom-left-radius:0.4em;
+}
+
+/**
+Left Bar
+*/
+.left-bar{
+    border: 1px;
+    width:15%;
+    height: 100%;
+    background-color: #0b97c4;
+    border-bottom-left-radius:0.5em;
+}
+
+/**
+End lest Bar
+*/
+
+/**
+main contain
+*/
+.right-main{
+    border: 1px;
+    height: 100%;
+    width: 85%;
+    background-color: #374e0c;
+    border-bottom-right-radius:2em;
+}
+/**
+End main contain
+*/
